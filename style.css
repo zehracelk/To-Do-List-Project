@@ -1,62 +1,54 @@
-
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-
-h1{
-    font-size: 52px !important;
-    
-
+h1 {
+  font-size: 52px !important;
 }
 
-body{
-    height: 100vh;
+body {
+  min-height: 100vh;
 }
 
-
-.newList{
-    padding-left:2rem ;
+.newList {
+  padding-left: 2rem;
 }
 
-.form-check{
-    border: 2px solid rgb(146, 146, 136);
-    margin: 0.5rem;
-    padding-left: 1rem;
-    position: relative;
+.form-check {
+  border: 2px solid rgb(146, 146, 136);
+  margin: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
 }
 
-.close{
-    position: absolute;
-    top: 0;
-    right: 0;
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #buton1 {
-    border: none;
-    width: 2rem;
-    margin-right: 1rem;
-    border-radius: 5px;
-    transition: all .5s;
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;  
+  border: none;
+  width: 2rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  transition: all 0.5s;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
 }
 
-#buton1:hover{
-    cursor: pointer;
-    width: 3rem;
-
+#buton1:hover {
+  cursor: pointer;
+  width: 3rem;
 }
 
-.form-check-input:hover{
-    cursor: pointer;
-
+.form-check-input:hover {
+  cursor: pointer;
 }
 
-.checkf{
-    text-decoration: line-through;
+.checkf {
+  text-decoration: line-through;
 }

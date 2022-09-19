@@ -59,14 +59,14 @@ btn.addEventListener("click", () => {
     });
 
 
-
-
-
     console.log(newListed);
 
-
-
-
-  }
+ }
   taskInput.focus();
+});
+
+taskInput.addEventListener("keydown",(e)=>{
+  if(e.code === "Enter"){
+      btn.click();
+  }
 });
